@@ -113,7 +113,7 @@ def draw_badge():
     avatar_img = download_avatar(avatar_url)
 
     # Width set to 600 to cleanly accommodate top %, rank, and [0xB][MASTER]
-    width, height = 550, 110
+    width, height = 600, 110
     radius = 16
 
     card = Image.new('RGBA', (width, height), (0, 0, 0, 0))
